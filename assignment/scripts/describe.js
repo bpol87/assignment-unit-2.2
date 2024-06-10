@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// in this code the variable "name" is set to a string of "Dane".
+// the if statement says that if the string of 'name' is exactly equal to the string 'Mary' then the console logs 'Hi, Mary!' otherwise the console logs 'How do you do?'.
+// in this case the console would log 'How do you do?' as the string for name is 'Dane' and not 'Mary'
 
 //CODE
 /*
@@ -45,9 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// in this code we declare a variable "secret";
+// in the next line we declare a variable 'code' with value 123.
+// in the if statement we see if 'code' directly equals 123, then the variable 'secret' is assigned the string 'super' and code is assigned the value of 'code' times 2.
+// once that if statement runs, another if statement says that if the current value of 'code' is greater than 250, then secret is assigned the string 'duper'. then we see the console logging the value of variable 'secret'.
+// in this code, the console would log the value of 'secret as 'super' because the code would be doubled from the first if statement but that would only yield a value of 246 which is less than 250. So only the first if statement would execute fully changing "secret" to 'super'.
 //
 
 //CODE
@@ -70,10 +71,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we declare variable 'isStudent' with a boolean value 'true'
+// we declare variable 'age' with value of 34
+//we declare variable 'zip' with value of 55407
+// in the if statement we have 4 possible options. 
+// 1. if variables isStudent is true and 'zip' is greater than 80000, then the console logs 'You're a student on the West Coast!'.
+// 2. otherwise if variables 'isStudent' is false and 'age' is less than 30, the console logs "What are your hobbies?"
+// 3. otherwise if variable 'isStudent' is true, the console logs 'welcome to Prime'
+// 4. and if none of those conditions are met, then the console logs "How about the weather?".
+// in this example, the console would log 'Welcome to Prime' as the first two conditions of the if statement are not met but 'isStudent' is true.
 
 //CODE
 /*
@@ -130,6 +136,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should be 'blue' and colorTwo should be 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +154,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//we should switch the || to && because we want to show AND not OR.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +167,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+the condition in the if statement should be 'age >= minAge' and the console.log should log "enter". TECHNNICALLY the if statement would log the correct value. it just doesn't follow the logical flow of the question asked.
 
 if(minAge <= age) {
   console.log('no entry');
